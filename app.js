@@ -5,10 +5,10 @@ const mongoose = require('mongoose');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(express.json());
+app.use(express.json()); 
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://thakurnakul119:qwertyuiop@cluster0.vppw2ez.mongodb.net/', {
+mongoose.connect('mongodb+srv://himanshirawat:kR8D5amrucAEmpS4@data.3nyhlsj.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
